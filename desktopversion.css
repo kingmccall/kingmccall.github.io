@@ -785,7 +785,8 @@ textarea {
 
 @media screen and (min-width: 768px)
 
-  { 
+  {
+
   .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
@@ -806,10 +807,10 @@ textarea {
     margin-bottom: 25px;
   }
 
-  .alex {
+  .mariane {
     margin-top: 190px;
     margin-bottom: 10px;
-    margin-left: -250;
+    margin-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: bold;
     font-size: 48px;
@@ -824,15 +825,17 @@ textarea {
 
   .text {
     color: #344563;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     font-family: 'Poppins', sans-serif;
+    line-height:28px;
     flex: none;
     order: 1;
     flex-grow: 0;
+    vertical-align: top;
   }
 }
 
