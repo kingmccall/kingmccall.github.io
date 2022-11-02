@@ -783,9 +783,7 @@ textarea {
   background-color: whitesmoke;
 }
 
-@media screen and (min-width: 768px)
-
- {
+@media screen and (min-width: 768px) {
   .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
@@ -924,6 +922,7 @@ textarea {
     order: 1;
     flex-grow: 0;
   }
+
   .container2 {
     display: flex;
     flex-direction: row;
@@ -941,9 +940,7 @@ textarea {
     margin-bottom: 25px;
   }
 
-  
-
-  .container3 {
+ .container3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -985,7 +982,7 @@ textarea {
     height: 54px;
     margin-left: -410px;
     margin-top: 30px;
-    background-color:#4053FC;
+    background-color: #4053fc;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     flex: none;
