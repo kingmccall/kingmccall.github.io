@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/PeacefulWiser/Portfolio-desktop-version#readme",
   "devDependencies": {
+    "@hint/connector-local": "^3.2.24",
     "hint": "^7.1.3"
   }
 }
