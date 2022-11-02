@@ -785,9 +785,8 @@ textarea {
 
 @media screen and (min-width: 768px)
 
-  {
-
-  .flex-container {
+{
+ .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
     background-position: top left;
@@ -831,11 +830,23 @@ textarea {
     font-weight: 400;
     font-style: normal;
     font-family: 'Poppins', sans-serif;
-    line-height:28px;
+    line-height: 28px;
     flex: none;
     order: 1;
     flex-grow: 0;
     vertical-align: top;
+  }
+  .cap {
+    color: #7f8cff;
+    font-family: 'Poppins', sans-serif;
+    font-style: medium;
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 24px;
+    vertical-align: top;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 }
 
