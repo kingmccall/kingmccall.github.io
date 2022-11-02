@@ -786,7 +786,7 @@ textarea {
 @media screen and (min-width: 768px)
 
  {
- .flex-container {
+  .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
     background-position: top left;
@@ -858,11 +858,11 @@ textarea {
     display: inline;
     padding: 10px;
     width: 15px;
-   }
+  }
 
   .container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 1340px;
     height: 716px;
     border-radius: 24px;
@@ -924,7 +924,6 @@ textarea {
     order: 1;
     flex-grow: 0;
   }
-
 }
 
 .desknav li {
@@ -937,7 +936,7 @@ textarea {
   padding: 10px;
   align-self: center;
   display: inline;
-  }
+}
 
 .header ul {
   margin-left: 900px;
