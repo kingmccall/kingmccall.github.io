@@ -851,13 +851,7 @@ textarea {
   .lass {
     margin-left: -9px;
   }
-
-  .fonticons ul li {
-    display: inline;
-    padding: 10px;
-    width: 15px;
-  }
-
+  
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1027,7 +1021,7 @@ textarea {
     align-self: center;
     display: inline;
   }
-  
+
   .header ul {
     margin-left: 900px;
     margin-top: -25px;
@@ -1204,17 +1198,17 @@ textarea {
     margin-left: 70px;
   }
 
-  .ncontainer2 a{
+  .ncontainer2 a {
     text-decoration: none;
     color: #6070ff;
   }
 
-  .ncontainer3 a{
+  .ncontainer3 a {
     text-decoration: none;
     color: #6070ff;
   }
 
-  .ncontainer4 a{
+  .ncontainer4 a {
     text-decoration: none;
     color: #6070ff;
   }
