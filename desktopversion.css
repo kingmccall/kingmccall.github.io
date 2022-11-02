@@ -789,9 +789,11 @@ textarea {
   background-color: whitesmoke;
 }
 
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) 
+
+{ 
   .flex-container {
-    background-image: url("resources/Header\ bg@2x.png");
+        background-image: url("resources/Header\ bg@2x.png");
     background-size: 100%;
     background-position: top left;
     display: flex;
