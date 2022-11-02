@@ -862,7 +862,7 @@ textarea {
 
   .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
     width: 1340px;
     height: 716px;
     border-radius: 24px;
@@ -884,12 +884,12 @@ textarea {
     align-items: center;
     padding: 16px;
     border-width: 0;
+    float: left;
     gap: 12px;
     left: 24px;
     width: 600px;
     height: 670px;
     background: #fff;
-    border: 1px solid #dfe1e6;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -910,6 +910,21 @@ textarea {
     flex-grow: 0;
   }
 
+  .daily {
+    width: 550px;
+    height: 76px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    vertical-align: top;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
 }
 
 .desknav li {
@@ -925,8 +940,8 @@ textarea {
   }
 
 .header ul {
-    margin-left: 900px;
-    margin-top: -25px;
+  margin-left: 900px;
+  margin-top: -25px;
 }
 
 .fonticons ul li {
