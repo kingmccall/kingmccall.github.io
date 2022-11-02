@@ -785,7 +785,7 @@ textarea {
 
 @media screen and (min-width: 768px)
 
-  {
+  { 
   .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
