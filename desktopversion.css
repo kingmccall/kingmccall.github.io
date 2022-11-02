@@ -474,12 +474,6 @@ ul li {
   margin-left: -150px;
 }
 
-.fonticons ul li {
-  display: inline;
-  padding: 10px;
-  margin-left: -35px;
-}
-
 .get {
   display: flex;
   flex-direction: column;
@@ -791,8 +785,8 @@ textarea {
 
 @media screen and (min-width: 768px)
 
- {    
-   .flex-container {
+ { 
+    .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
     background-position: top left;
@@ -842,7 +836,7 @@ textarea {
   }
 }
 
-.desknav li{
+.desknav li {
   font-family: 'Poppins', sans-serif;
   color: #344563;
   font-style: medium;
@@ -857,4 +851,10 @@ textarea {
 .header ul {
   margin-left: 900px;
   margin-top: -25px;
+}
+
+.fonticons ul li {
+  display: inline;
+  padding: 10px;
+  margin-left: -35px;
 }
