@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PeacefulWiser/Portfolio-desktop-version/issues"
   },
-  "homepage": "https://github.com/PeacefulWiser/Portfolio-desktop-version#readme"
+  "homepage": "https://github.com/PeacefulWiser/Portfolio-desktop-version#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
 }
