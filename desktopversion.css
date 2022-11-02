@@ -1206,14 +1206,49 @@ textarea {
 
   .ncontainer2 a{
     text-decoration: none;
+    color: #6070ff;
   }
 
   .ncontainer3 a{
     text-decoration: none;
+    color: #6070ff;
   }
 
   .ncontainer4 a{
     text-decoration: none;
+    color: #6070ff;
+  }
+
+  .tonicc {
+    width: 355px;
+    height: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 1500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    vertical-align: top;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 30px;
+  }
+
+  .dailly {
+    width: 550px;
+    height: 76px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    vertical-align: top;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: -25px;
   }
 }
 
