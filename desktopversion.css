@@ -785,7 +785,7 @@ textarea {
 
 @media screen and (min-width: 768px)
 
- {
+{
   .flex-container {
     background-image: url("resources/Header bg@2x.png");
     background-size: 100%;
@@ -809,7 +809,7 @@ textarea {
   .alex {
     margin-top: 190px;
     margin-bottom: 10px;
-    margin-left: -250px;
+    margin-left: -250;
     font-family: 'Poppins', sans-serif;
     font-style: bold;
     font-size: 48px;
