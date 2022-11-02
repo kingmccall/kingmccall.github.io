@@ -858,7 +858,59 @@ textarea {
     width: 15px;
    
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1340px;
+    height: 716px;
+    border-radius: 24px;
   }
+
+  .item1 img {
+    width: 650px;
+    height: 670px;
+    border-radius: 8px;
+    margin-left: 5px;
+    flex: 0;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-width: 0;
+    gap: 12px;
+    left: 24px;
+    width: 600px;
+    height: 670px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+  .tonic {
+    width: 295px;
+    height: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 1500;
+    font-size: 40px;
+    line-height: 52px;
+    align: left;
+    color: #091E42;
+    vertical-align: top;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+}
 
   .desknav li {
     font-family: 'Poppins', sans-serif;
