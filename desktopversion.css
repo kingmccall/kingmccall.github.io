@@ -836,6 +836,7 @@ textarea {
     flex-grow: 0;
     vertical-align: top;
   }
+
   .cap {
     color: #7f8cff;
     font-family: 'Poppins', sans-serif;
@@ -852,16 +853,16 @@ textarea {
   .lass {
     margin-left: -9px;
   }
+
   .fonticons ul li {
     display: inline;
     padding: 10px;
     width: 15px;
-   
-  }
+   }
 
   .container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 1340px;
     height: 716px;
     border-radius: 24px;
@@ -892,7 +893,7 @@ textarea {
     flex: none;
     order: 0;
     flex-grow: 0;
-    }
+  }
 
   .tonic {
     width: 295px;
@@ -902,8 +903,7 @@ textarea {
     font-weight: 1500;
     font-size: 40px;
     line-height: 52px;
-    align: left;
-    color: #091E42;
+    color: #091e42;
     vertical-align: top;
     flex: none;
     order: 0;
@@ -912,22 +912,22 @@ textarea {
 
 }
 
-  .desknav li {
-    font-family: 'Poppins', sans-serif;
-    color: #344563;
-    font-style: medium;
-    font-size: 15px;
-    line-height: 20px;
-    vertical-align: center;
-    padding: 10px;
-    align-self: center;
-    display: inline;
+.desknav li {
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-style: medium;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: center;
+  padding: 10px;
+  align-self: center;
+  display: inline;
   }
-  
-  .header ul {
+
+.header ul {
     margin-left: 900px;
     margin-top: -25px;
-  }
+}
 
 .fonticons ul li {
   display: inline;
