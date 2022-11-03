@@ -855,16 +855,18 @@ textarea {
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1340px;
-    height: 716px;
+    width: 1140px;
+    height: 690px;
     border-radius: 24px;
+    margin-left: 90px;
   }
 
   .item1 img {
-    width: 650px;
-    height: 670px;
+    width: 400px;
+    height: 470px;
     border-radius: 8px;
-    margin-left: 5px;
+    margin-left: 85px;
+    margin-top: -120px;
     flex: 0;
     order: 0;
     flex-grow: 0;
@@ -1370,7 +1372,7 @@ textarea {
     gap: 12px;
     left: 24px;
     width: 1340px;
-    height: 1116px;
+    height: 950px;
     background: #6070ff;
     background-image: url("resources/contact\ form\ background\ shapes@2x.png");
     background-size: 100%;
@@ -1389,7 +1391,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 70px;
     font-size: 40px;
     line-height: 52px;
     display: flex;
@@ -1408,7 +1410,7 @@ textarea {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-left: 20px;
+    margin-left: 70px;
     color: #344563;
     vertical-align: top;
     flex: none;
@@ -1419,7 +1421,7 @@ textarea {
   .fonticons ul {
     display: inline;
     padding: 10px;
-    margin-left: 135px;
+    margin-left: 185px;
     margin-top: -60px;
     }
 
@@ -1431,7 +1433,7 @@ textarea {
       gap: 12px;
       width: 150px;
       height: 54px;
-      margin-left: 15px;
+      margin-left: 65px;
       margin-top: -10px;
       background: ffffff;
       border: 1px solid #dfe1e6;
@@ -1483,6 +1485,7 @@ textarea {
       line-height: 87%;
       align-self: center;
       vertical-align: center;
+      margin-left: 60px;
       margin-top: 95px;
       flex: none;
       order: 0;
@@ -1506,5 +1509,65 @@ textarea {
 
     .app .topspan {
       margin: 25px;
+    }
+
+    .form1 {
+      margin-top: -70px;
+    }
+
+    .form1 input {
+      font-family: 'Poppins', sans-serif;
+      color: #172b4d;
+      font-style: normal;
+      font-size: 17px;
+      line-height: 20px;
+      line-height: 78%;
+      align-self: left;
+      vertical-align: center;
+      width: 457px;
+      height: 58px;
+      padding: 15px;
+      margin-bottom: 15px;
+      margin-left: 70px;
+      border-radius: 8px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    textarea {
+      width: 457px;
+      height: 170px;
+      padding: 15px;
+      margin-top: 3px;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      color: #b3bac5;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 24px;
+      vertical-align: top;
+      margin-left: 70px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    
+    .sbmt {
+      font-family: 'Poppins', sans-serif;
+      color: #6070ff;
+      font-style: medium;
+      font-size: 17px;
+      line-height: 24px;
+      vertical-align: center;
+      border-radius: 8px;
+      letter-spacing: 1px;
+      width: 160px;
+      height: 54px;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+      margin-left: 220px;
     }
 }
