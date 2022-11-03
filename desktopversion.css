@@ -1370,7 +1370,7 @@ textarea {
     gap: 12px;
     left: 24px;
     width: 1340px;
-    height: 916px;
+    height: 1116px;
     background: #6070ff;
     background-image: url("resources/contact\ form\ background\ shapes@2x.png");
     background-size: 100%;
@@ -1472,5 +1472,39 @@ textarea {
     .lang i {
       margin-left: 340px;
       color: grey;
+    }
+
+    .contactme {
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      font-style: bold;
+      font-size: 40px;
+      line-height: 52px;
+      line-height: 87%;
+      align-self: center;
+      vertical-align: center;
+      margin-top: 95px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .app {
+      font-family: 'Poppins', sans-serif;
+      color: #ebebff;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 28px;
+      vertical-align: top;
+      width: 727px;
+      margin-left: 290px;
+      height: 112px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    .app .topspan {
+      margin: 25px;
     }
 }
