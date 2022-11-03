@@ -1058,6 +1058,53 @@ textarea {
     border-radius: 24px;
   }
 
+  .lfs li {
+    width: 400px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 24px;
+    color: #344563;
+    align-self: left;
+  }
+
+  .jhc {
+    margin-bottom: 120px;
+    margin-left: -100px;
+  }
+
+  .jhc .js {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    padding: 4px;
+    margin: 10px;
+    border:  10px solid #F7F7F9;
+    background-color: #F7F7F9;
+  }
+
+  .jhc .ht {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    padding: 4px;
+    margin: 10px;
+    border:  10px solid #F7F7F9;
+    background-color: #F7F7F9;
+  }
+
+  .jhc .cs {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    padding: 4px;
+    margin: 10px;
+    border:  10px solid #F7F7F9;
+    background-color: #F7F7F9;
+  }
+
+  .Lang {
+    margin-bottom: 80px;
+  }
+
   .desknav li {
     font-family: 'Poppins', sans-serif;
     color: #344563;
@@ -1065,14 +1112,15 @@ textarea {
     font-size: 15px;
     line-height: 20px;
     vertical-align: center;
-    align-self: normal;
-    padding: 10px;
+    align-self: center;
+    padding: 20px;
     display: inline;
     }
 
   .header ul {
-    margin-left: 700px;
+    margin-left: 750px;
     margin-top: -25px;
+    margin-bottom: 40px;;
     width: 100vw;
   }
 
@@ -1542,119 +1590,6 @@ textarea {
     margin-top: -10px;
   }
 
-  .lang {
-    position: absolute;
-    right: 78px;
-    left: 115px;
-    top: 4040px;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000;
-    display: flex;
-    margin-left: 530px;
-    align-items: center;
-    flex-grow: 0;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 5px;
-    position: relative;
-  }
-
-  .griditem1 {
-    background-color: #f7f7f9;
-    width: 100px;
-    height: 125px;
-    margin-left: -150px;
-    border-radius: 8px;
-  }
-
-  .griditem2 {
-    background-color: #f7f7f9;
-    width: 100px;
-    height: 125px;
-    margin-top: 120px;
-    margin-left: 20px;
-    border-radius: 8px;
-  }
-
-  .griditem3 {
-    background-color: #f7f7f9;
-    width: 100px;
-    height: 125px;
-    margin-left: 120px;
-    position: absolute;
-    top: 125px;
-    left: 10px;
-    border-radius: 8px;
-  }
-
-  .griditem1 img {
-    width: 48px;
-    height: 50px;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-
-  .Script {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    margin-left: -50px;
-    margin-top: 35px;
-    display: flex;
-    align-items: center;
-    color: #253858;
-  }
-
-  .griditem2 img {
-    width: 48px;
-    height: 50px;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-
-  .HTML {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    margin-left: -50px;
-    margin-top: 35px;
-    display: flex;
-    align-items: center;
-    color: #253858;
-  }
-
-  .griditem3 img {
-    width: 48px;
-    height: 50px;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-
-  .CSS {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    margin-left: -50px;
-    margin-top: 35px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #253858;
-  }
-
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -1740,15 +1675,7 @@ textarea {
     margin-left: -115px;
   }
 
-  .Frame {
-    margin-left: -110px;
-  }
-
-  .Skills {
-    margin-left: -110px;
-  }
-
-  .Frame i {
+ .Frame i {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     margin-left: 350px;
@@ -1759,11 +1686,6 @@ textarea {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     margin-left: 410px;
-    color: grey;
-  }
-
-  .lang i {
-    margin-left: 340px;
     color: grey;
   }
 
