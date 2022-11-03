@@ -1244,8 +1244,25 @@ textarea {
     flex-grow: 0;
     margin-left: -25px;
   }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    left: 24px;
+    width: 1340px;
+    height: 916px;
+    background: #6070ff;
+    background-image: url("resources/contact\ form\ background\ shapes@2x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
 }
-
-
-
-
