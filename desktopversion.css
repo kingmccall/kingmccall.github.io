@@ -1245,6 +1245,123 @@ textarea {
     margin-left: -25px;
   }
 
+  .lang {
+    position: absolute;
+    right: 78px;
+    left: 65px;
+    top: 4150px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    display: flex;
+    margin-left: 530px;
+    align-items: center;
+    flex-grow: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    position: relative;
+  }
+
+  .grid li {
+    display: inline-flex;
+  }
+
+  .griditem1 {
+    background-color: #f7f7f9;
+    width: 100px;
+    height: 125px;
+    margin-left: -150px;
+    border-radius: 8px;
+  }
+  
+  .griditem2 {
+    background-color: #f7f7f9;
+    width: 100px;
+    height: 125px;
+    margin-top: 180px;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+  
+  .griditem3 {
+    background-color: #f7f7f9;
+    width: 100px;
+    height: 125px;
+    margin-left: 120px;
+    position: absolute;
+    top: 185px;
+    left: 10px;
+    border-radius: 8px;
+    }
+
+  .griditem1 img {
+    width: 48px;
+    height:50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    }
+  
+  .Script {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -50px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+  
+  .griditem2 img {
+    width: 48px;
+    height:50px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .HTML {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -50px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+  
+  .griditem3 img {
+    width: 48px;
+    height:50px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .CSS {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: -50px;
+    margin-top: 35px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -1265,4 +1382,44 @@ textarea {
     order: 0;
     flex-grow: 0;
   }
+
+  .Abouth2 {
+    width: 327px;
+    height: 101px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Hello {
+    width: 647px;
+    height: 144px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+    color: #344563;
+    vertical-align: top;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .fonticons ul {
+    display: inline;
+    padding: 10px;
+    margin-left: 135px;
+    margin-top: -60px;
+    }
 }
