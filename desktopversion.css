@@ -1077,32 +1077,40 @@ textarea {
   .jhc .js {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding: 4px;
-    margin: 10px;
-    border:  10px solid #F7F7F9;
+    padding-right: 90px;
+    border:  1px solid #F7F7F9;
     background-color: #F7F7F9;
+    border-width: 45px;
+    height: 95px;
   }
 
   .jhc .ht {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding: 4px;
+    padding: 40px;
     margin: 10px;
-    border:  10px solid #F7F7F9;
+    border:  1px solid #F7F7F9;
     background-color: #F7F7F9;
   }
 
   .jhc .cs {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding: 4px;
+    padding: 40px;
     margin: 10px;
-    border:  10px solid #F7F7F9;
+    border:  1px solid #F7F7F9;
     background-color: #F7F7F9;
   }
 
   .Lang {
     margin-bottom: 80px;
+  }
+
+  .js img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: -90px;
   }
 
   .desknav li {
