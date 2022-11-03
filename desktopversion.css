@@ -1065,14 +1065,15 @@ textarea {
     font-size: 15px;
     line-height: 20px;
     vertical-align: center;
+    align-self: normal;
     padding: 10px;
-    align-self: center;
     display: inline;
-  }
+    }
 
   .header ul {
-    margin-left: 900px;
+    margin-left: 700px;
     margin-top: -25px;
+    width: 100vw;
   }
 
   .grid li {
