@@ -1250,8 +1250,8 @@ textarea {
   .lang {
     position: absolute;
     right: 78px;
-    left: 65px;
-    top: 4170px;
+    left: 115px;
+    top: 4040px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1569,5 +1569,13 @@ textarea {
       cursor: pointer;
       margin-top: 20px;
       margin-left: 220px;
+    }
+
+    .item1 .firstimage {
+      margin-left: 10px;
+    }
+
+    .item1 .secondimage {
+      margin-left: 10px;
     }
 }
