@@ -1195,6 +1195,7 @@ textarea {
   .lfs hr {
     width: 115%;
     margin-left: -150px;
+    margin-top: 20px;
   }
 
   .desknav li {
