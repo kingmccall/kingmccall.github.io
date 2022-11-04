@@ -1071,7 +1071,7 @@ textarea {
 
   .jhc {
     margin-bottom: 90px;
-    margin-left: -100px;
+    margin-left: -140px;
   }
 
   .jhc .js {
@@ -1083,6 +1083,7 @@ textarea {
     border-width: 45px;
     height: 100px;
     margin-top: -30px;
+    border-radius: 8px;
   }
 
   .js img {
@@ -1109,6 +1110,7 @@ textarea {
     height: 100px;
     margin-top: -30px;
     margin-left: 30px;
+    border-radius: 8px;
   }
 
   .ht img {
@@ -1135,6 +1137,7 @@ textarea {
     height: 100px;
     margin-bottom: -30px;
     margin-left: 30px;
+    border-radius: 8px;
   }
 
   .cs img {
@@ -1153,15 +1156,44 @@ textarea {
 
   .Lang {
     margin-bottom: 20px;
-    margin-left: -80px;
+    margin-left: -117px;
+    position: relative;
+  }
+
+  .Lang i {
+    margin-left: 390px;
+    position: absolute;
+    top: -8px;
   }
 
   .Frames {
-    margin-left: -80px;
+    margin-left: -117px;
+    position: relative;
   }
 
   .Skll {
-    margin-left: -80px;
+    margin-left: -117px;
+    position: relative;
+  }
+
+  .Frames i {
+    margin-left: 380px;
+    position: absolute;
+    top: -8px;
+    -ms-transform: rotate(270deg);
+    transform: rotate(2790deg);
+  }
+
+  .Skll i {
+    margin-left: 470px;
+    position: absolute;
+    top: -8px;
+    -ms-transform: rotate(270deg);
+    transform: rotate(2790deg);
+  }
+
+  .lfs hr {
+    width: 100%;
   }
 
   .desknav li {
