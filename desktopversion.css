@@ -1087,7 +1087,7 @@ textarea {
   }
 
   .js img {
-    width: 5%;
+    width: 48px;
     height: 48px;
     margin-bottom: 16px;
     margin-left: -80px;
@@ -1114,7 +1114,7 @@ textarea {
   }
 
   .ht img {
-    width: 5%;
+    width: 48px;
     height: 48px;
     margin-bottom: 16px;
     margin-left: -40px;
@@ -1141,7 +1141,7 @@ textarea {
   }
 
   .cs img {
-    width: 5%;
+    width: 48px;
     height: 48px;
     margin-bottom: 16px;
     margin-left: -40px;
@@ -1193,7 +1193,8 @@ textarea {
   }
 
   .lfs hr {
-    width: 100%;
+    width: 115%;
+    margin-left: -150px;
   }
 
   .desknav li {
@@ -1759,11 +1760,6 @@ textarea {
     top: 144px;
     order: 0;
     flex-grow: 0;
-  }
-
-  hr {
-    width: 507px;
-    margin-left: -115px;
   }
 
   .Frame i {
