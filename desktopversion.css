@@ -1070,47 +1070,98 @@ textarea {
   }
 
   .jhc {
-    margin-bottom: 120px;
+    margin-bottom: 90px;
     margin-left: -100px;
   }
 
   .jhc .js {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding-right: 90px;
-    border:  1px solid #F7F7F9;
-    background-color: #F7F7F9;
+    padding-right: 40px;
+    border: 1px solid #f7f7f9;
+    background-color: #f7f7f9;
     border-width: 45px;
-    height: 95px;
+    height: 100px;
+    margin-top: -30px;
+  }
+
+  .js img {
+    width: 5%;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: -80px;
+  }
+
+  .js h3 {
+    display: inline;
+    margin-top: -10px;
+    margin-left: -25px;
+    font-size: 15px;
   }
 
   .jhc .ht {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding: 40px;
-    margin: 10px;
-    border:  1px solid #F7F7F9;
-    background-color: #F7F7F9;
+    padding-right: 40px;
+    border: 1px solid #f7f7f9;
+    background-color: #f7f7f9;
+    border-width: 45px;
+    height: 100px;
+    margin-top: -30px;
+    margin-left: 30px;
+  }
+
+  .ht img {
+    width: 5%;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: -40px;
+  }
+
+  .ht h3 {
+    display: inline;
+    margin-top: -10px;
+    margin-left: -25px;
+    font-size: 15px;
   }
 
   .jhc .cs {
     font-family: 'Poppins', sans-serif;
     display: inline;
-    padding: 40px;
-    margin: 10px;
-    border:  1px solid #F7F7F9;
-    background-color: #F7F7F9;
+    padding-right: 40px;
+    border: 1px solid #f7f7f9;
+    background-color: #f7f7f9;
+    border-width: 45px;
+    height: 100px;
+    margin-bottom: -30px;
+    margin-left: 30px;
+  }
+
+  .cs img {
+    width: 5%;
+    height: 48px;
+    margin-bottom: 16px;
+    margin-left: -40px;
+  }
+
+  .cs h3 {
+    display: inline;
+    margin-top: -10px;
+    margin-left: -25px;
+    font-size: 15px;
   }
 
   .Lang {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+    margin-left: -80px;
   }
 
-  .js img {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 16px;
-    margin-left: -90px;
+  .Frames {
+    margin-left: -80px;
+  }
+
+  .Skll {
+    margin-left: -80px;
   }
 
   .desknav li {
@@ -1123,12 +1174,12 @@ textarea {
     align-self: center;
     padding: 20px;
     display: inline;
-    }
+  }
 
   .header ul {
     margin-left: 750px;
     margin-top: -25px;
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
     width: 100vw;
   }
 
@@ -1683,7 +1734,7 @@ textarea {
     margin-left: -115px;
   }
 
- .Frame i {
+  .Frame i {
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     margin-left: 350px;
