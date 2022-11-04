@@ -870,6 +870,20 @@ body {
     margin-left: -9px;
   }
 
+  a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    font-weight: 400;
+    color: blueviolet;
+    font-size: 20px;
+  }
+
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
