@@ -876,7 +876,7 @@ body {
     text-decoration: none;
     transition: all 0.25s ease-out;
   }
-  
+
   a:hover,
   a:focus {
     font-weight: 400;
