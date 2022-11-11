@@ -60,5 +60,9 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to my coding partners and Microverse
 
+## Presentation of My Updated Portfolio
+
+https://www.loom.com/share/7a015fb2411c42ba8df371dc09c185f8
+
 
 
