@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharing Forex Trading</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sharingforex.css">
+</head>
+
+<body>
+
+  <div class="top">
+    <header class="header" style="background-color:black;">
+      <nav>
+        <p class="logo" id="txt">Sharing Forex</p>
+      </nav>
+      <nav class="nav-menue ">
+        <a href="sharingforex.html" target="_blank" class="rainbow-text" id="tools">Home</a>
+        <a href="tools.html" target="_blank" class="rainbow-text" id="tools">Tools</a>
+        <a href="about.html" target="_blank" class="rainbow-text">About Us</a>
+        
+
+        <hr class="contact-hr">
+      </nav>
+      <nav class="humburger ">
+        <span class="bar "></span>
+        <span class="bar"></span>
+        <span class="bar "></span>
+      </nav>
+      <nav class="nav-menue2">
+        <a href="sharingforex.html" target="_blank" class="rainbow-text" id="tools">Home</a>
+        <a href="tools.html" target="_blank" class="rainbow-text" id="tools">Tools</a>
+        <a href="about.html" target="_blank" class="rainbow-text">About Us</a>
+       
+      </nav>
+
+    </header>
+    <div class="section">
+
+
+      <div class="titl">
+        <h1 class="rainbow-text">Tools </h1>
+        <h1 class="rainbow-text" style="font-weight: 100; margin-bottom: 8vw;">Fun Fact<br>The RSI, EMA and MACD<br>
+          on the top right of your screen <br>are among the most commonly used<br>forex trading tools in the market
+          today.<br> Wait for all of them to turn <span style="color:green">green</span> or <span
+            style="color:red">red</span> <br>before executing a trade.
+          Also look at the <br>real-time currency strengths at<br> the bottom-right of your screen <br>which apply to
+          all currency pairs<br> across the board.
+        </h1>
+      </div>
+      <div class="titl">
+        <h1 class="rainbow-text" style="font-weight: 100; margin-bottom: 8vw;">Welcome to Sharing Forex.<br>A
+          destination for everyone<br>
+          who wants to share their <br>forex trading ideas,strategies,<br>tools and algorithms.</h1>
+      </div>
+
+
+      <div class="titl">
+        <h1 class="rainbow-text" style="font-weight: 100; margin-bottom: 8vw; ">The system offers a trend following
+          <br>trading strategy with multiple upgraded <br>indicators for modern scalpers and <br>long-term traders. It
+          uses its own <br>trade signal filtering system in order<br> to produce finer trading results,<br> especially
+          for the newbie traders.<br>
+
+          Our Trading System carries a great versatility <br>for the traders by allowing them to trade<br> all kinds of
+          forex currency pairs in the market. </h1>
+      </div>
+      <div class="info">
+        <p>
+          <span class="rainbow-text">ENJOY YOUR FOREX TRADING EXPERIENCE</span>
+        </p>
+      </div>
+      <div class="social_media_about">
+        <p class="rainbow-text">LET’S CONNECT</p>
+        <ul class="social_icons rainbow-text">
+          <li><a href="#"><i class="fa-brands fa-facebook fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin fa-1x"></i></a></li>
+        </ul>
+      </div>
+      <div class="social_media_about">
+
+        <ul class="social_icons rainbow-text">
+          <li><a href="#"><i class="fa-brands fa-facebook fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram fa-1x"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin fa-1x"></i></a></li>
+        </ul>
+      </div>
+
+      </section>
+    </div>
+  </div>
+  <script>
+    const txt = document.getElementById('txt');
+    setInterval(changecolor, 1000);
+
+    function changecolor() {
+      const r = Math.floor(Math.random() * 255);
+      const g = Math.floor(Math.random() * 255);
+      const b = Math.floor(Math.random() * 255);
+
+      txt.style.color = 'RGB(' + r + ',' + g + ',' + b + ')';
+    }
+  </script>
+</body>
+
+</html>
