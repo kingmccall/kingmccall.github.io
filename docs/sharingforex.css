@@ -88,6 +88,7 @@ img {
   font-weight: 800;
   font-size: 30px;
   text-decoration: none;
+  margin-left: -3vw;
 }
 
 
@@ -753,7 +754,7 @@ form button:hover {
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
-    margin-left: -15vw;
+    margin-left: -23vw;
   }
 
   .nav-menue2 {
