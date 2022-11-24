@@ -17,7 +17,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin-left: 5vw;
+  margin-left: 3vw;
 }
 
 a {
@@ -746,6 +746,14 @@ form button:hover {
 
   .humburger {
     display: none;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-left: -15vw;
   }
 
   .nav-menue2 {
