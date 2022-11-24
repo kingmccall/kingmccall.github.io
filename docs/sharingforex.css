@@ -165,6 +165,7 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   width: 100%;
+ 
   background-color: black;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -184,7 +185,8 @@ font-size: 20px;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin: 12px 24px 0 24px;
+  margin: 0px 24px 0 24px;
+  
 }
 
 .social_media_about {
@@ -530,14 +532,14 @@ form button:hover {
     background-size: cover;
     justify-content: center;
     margin-top: 0px;
-    margin-bottom: 76px;
+   
     width: 100%;
     border-bottom-left-radius: 50px;
     overflow-x: hidden;
   }
 
   .section:hover {
-    box-shadow: 1px 8px 16px rgba(5, 10, 49, 0.24);
+   
     border-bottom-left-radius: 100px;
     transition: all 0.5s ease-out;
   }
@@ -649,10 +651,7 @@ form button:hover {
     margin-right: 100px;
   }
 
-  .works {
-    padding: 80px;
-    gap: 142px;
-  }
+ 
 
   
 
