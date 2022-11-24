@@ -190,6 +190,7 @@ font-size: 20px;
   flex-direction: column;
   padding: 10px 4px;
   flex-wrap: wrap;
+  margin-left: -5vw;
 }
 
 .social_media_about a {
@@ -1052,6 +1053,14 @@ form button:hover {
     width: 74px;
     height: 24px;
     font-size: 30px;
+  }
+
+  .social_media_about {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 4px;
+    flex-wrap: wrap;
+    margin-left: 2vw;
   }
   
   #social_icons {
