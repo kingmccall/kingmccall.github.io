@@ -807,7 +807,7 @@ g:nth-child(3n + 3){
   }
 
   /* ------------------------------ */
-  g{
+  /* g{
     position: absolute;
     margin-top: -70vw;
     height: 100px;
@@ -833,7 +833,7 @@ g:nth-child(3n + 3){
     100%{
         transform: translateY(calc(70vh + 50px));
     }
-}
+} */
 
 }
   
