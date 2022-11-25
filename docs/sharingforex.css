@@ -369,7 +369,7 @@ font-size: 20px;
   gap: 20px;
   padding: 114px 24px 8px 24px;
   z-index: 1;
-  height: 100vh;
+  
 }
 
 .contact-me h2 {
@@ -482,7 +482,7 @@ form button:hover {
   display: none;
 }
 
-g{
+/* g{
   position: absolute;
   margin-top: -900px;
   height: 100px;
@@ -508,7 +508,7 @@ g:nth-child(3n + 3){
   100%{
       transform: translateY(calc(100vh + 100px));
   }
-}
+} */
 
 @media (min-width: 768px) {
   body {
@@ -781,7 +781,7 @@ g:nth-child(3n + 3){
     align-items: center;
     gap: 24px;
     z-index: 1;
-   height: 1000px;
+   
     
   }
 
