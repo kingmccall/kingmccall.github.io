@@ -38,9 +38,9 @@ p {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+  -moz-animation: my-animation 7s linear infinite;
+  -webkit-animation: my-animation 7s linear infinite;
+  animation: my-animation 7s linear infinite;
 }
 
 /* for Firefox */
@@ -371,7 +371,7 @@ font-size: 20px;
   gap: 20px;
   padding: 114px 24px 8px 24px;
   z-index: 1;
-  margin-top: 1250px;
+  
 }
 
 .contact-me h2 {
@@ -482,6 +482,34 @@ form button:hover {
 
 .toolss {
   display: none;
+}
+
+g{
+  position: absolute;
+  margin-top: -900px;
+  height: 100px;
+ margin-left: -900px;
+  background: linear-gradient(transparent, #fff);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  animation: animate 5s linear infinite;
+}
+g:nth-child(3n + 1){
+  background: linear-gradient(transparent, #0ff);
+}
+g:nth-child(3n + 2){
+  background: linear-gradient(transparent, #0f0);
+}
+g:nth-child(3n + 3){
+  background: linear-gradient(transparent, #f00);
+}
+@keyframes animate{
+  0%{
+      transform: translateY(-200px);
+  }
+  100%{
+      transform: translateY(calc(100vh + 100px));
+  }
 }
 
 @media (min-width: 768px) {
@@ -755,7 +783,7 @@ form button:hover {
     align-items: center;
     gap: 24px;
     z-index: 1;
-    margin-top: 750px;
+    
   }
 
   form {
@@ -778,6 +806,35 @@ form button:hover {
   .contact-hr {
     display: none;
   }
+
+  /* ------------------------------ */
+  g{
+    position: absolute;
+    margin-top: -70vw;
+    height: 100px;
+   margin-left: auto;
+    background: linear-gradient(transparent, #fff);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate 5s linear infinite;
+}
+g:nth-child(3n + 1){
+    background: linear-gradient(transparent, #0ff);
+}
+g:nth-child(3n + 2){
+    background: linear-gradient(transparent, #0f0);
+}
+g:nth-child(3n + 3){
+    background: linear-gradient(transparent, #f00);
+}
+@keyframes animate{
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(calc(100vh + 100px));
+    }
+}
 
 }
   
