@@ -361,9 +361,7 @@ font-size: 20px;
 .contact-me {
   background-color: black;
   
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: contain;
+  
   border-top-left-radius: 100px;
   display: flex;
   flex-direction: column;
@@ -488,7 +486,7 @@ g{
   position: absolute;
   margin-top: -900px;
   height: 100px;
- margin-left: -900px;
+ 
   background: linear-gradient(transparent, #fff);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -832,7 +830,7 @@ g:nth-child(3n + 3){
         transform: translateY(-200px);
     }
     100%{
-        transform: translateY(calc(100vh + 100px));
+        transform: translateY(calc(70vh + 50px));
     }
 }
 
