@@ -506,7 +506,7 @@ form button:hover {
     font-size: 20px;
     line-height: 52px;
     color: #172b4d;
-    margin-left: -30vw;
+    margin-left: 5vw;
     text-align:center;
   }
 
@@ -554,7 +554,7 @@ form button:hover {
   }
 
   .titl {
-    margin-left: 430px;
+    margin:auto;
     place-content: center;
     margin-top: 40px;
   }
@@ -623,7 +623,7 @@ form button:hover {
     }
   }
 
-  .title h1 {
+  /* .title h1 {
     animation-duration: 3s;
     animation-name: slidein1;
   }
@@ -638,12 +638,13 @@ form button:hover {
       margin-right: 0%;
       width: 300%;
     }
-  }
+  } */
 
   .title {
-    margin-left: 20px;
-    margin-right: 100px;
-    font-size: 4px;
+    width: 90%;
+    margin: auto;
+    padding-top: 0vh;
+    
   }
 
   .info {
@@ -777,3 +778,7 @@ form button:hover {
   .contact-hr {
     display: none;
   }
+
+}
+  
+  
