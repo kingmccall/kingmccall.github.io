@@ -369,7 +369,7 @@ font-size: 20px;
   gap: 20px;
   padding: 114px 24px 8px 24px;
   z-index: 1;
-  
+  height: 100vh;
 }
 
 .contact-me h2 {
@@ -781,6 +781,7 @@ g:nth-child(3n + 3){
     align-items: center;
     gap: 24px;
     z-index: 1;
+   height: 1000px;
     
   }
 
