@@ -741,7 +741,7 @@ g:nth-child(3n + 3){
     align-items: center;
     list-style: none;
     gap: 15px;
-   margin-top: 2vh;
+   margin-top: 4vh;
   }
   
   .social_icons i {
