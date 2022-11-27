@@ -171,7 +171,7 @@ font-size: 20px;
   background-repeat: no-repeat;
   overflow-x: hidden;
   overflow-y: hidden;
-  height: 44em;
+  height: 55em;
 }
 
 .title {
@@ -192,7 +192,7 @@ font-size: 20px;
  .social_media_about {
   display: flex;
   flex-direction: column;
-  margin-top: -20vh;
+  margin-top: 10vh;
   padding: 10px 4px;
   flex-wrap: wrap;
   margin-left: -4vw;
@@ -565,7 +565,7 @@ g:nth-child(3n + 3){
     width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 39em;
+    height: 45em;
   }
 
  
@@ -761,7 +761,7 @@ g:nth-child(3n + 3){
   .social_media_about {
     display: flex;
     flex-direction: column;
-   margin-top: -18vh;
+   margin-top: -8vh;
     flex-wrap: wrap;
     margin-left: 2vw;
   }
