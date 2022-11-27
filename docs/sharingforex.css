@@ -165,7 +165,7 @@ font-size: 20px;
 }
 
 .section {
-  background-image: url('../docs/assets/images/wancepaleri.jpg');
+  background-image: url('../docs/images/wancepaleri.jpg');
       
   background-size: 100% 700px;
   background-repeat: no-repeat;
@@ -558,7 +558,7 @@ g:nth-child(3n + 3){
 
   .section {
     
-    background-image: url('/images/wancepaleri.jpg');
+    background-image: url('../docs/images/wancepaleri.jpg');
      background-size: 100% 700px;
     background-repeat: no-repeat;
    width: auto;
