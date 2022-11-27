@@ -256,10 +256,7 @@ font-size: 20px;
 
 
 
-.project_name {
-  color: #172b4d;
-  margin-top: 12px;
-}
+
 
 #title {
   font-weight: 700;
@@ -267,12 +264,12 @@ font-size: 20px;
   line-height: 44px;
 }
 
-.modaltitle {
+/* .modaltitle {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
-}
+} */
 
 .project_info {
   display: flex;
