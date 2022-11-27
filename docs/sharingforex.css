@@ -142,8 +142,8 @@ font-size: 20px;
   padding: 50px 24px;
   left: -100%;
   top: 0;
-  filter: blur(500px);
-  backdrop-filter: blur(500px);
+  backdrop-filter: blur(85px);
+  z-index: 30;
   
 }
 
@@ -518,9 +518,9 @@ g:nth-child(3n + 3){
     border-bottom-left-radius: 100px;
   }
 
-  .nav-menue {
+   .nav-menue {
     display: none;
-  }
+  }  
 
   .header {
     padding: 14px 80px;
