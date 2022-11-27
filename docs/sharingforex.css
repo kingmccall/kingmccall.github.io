@@ -162,17 +162,14 @@ font-size: 20px;
 }
 
 .section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
- 
-  background-color: black;
-  background-position: right bottom;
+  background-image: url('/docs/images/wance-paleri--U35nb07DCM-unsplash.jpg');
+      
+  background-size: 100% 700px;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 100px;
   overflow-x: hidden;
- }
+  overflow-y: hidden;
+  height: 44em;
+}
 
 .title {
   width: 90%;
@@ -185,17 +182,18 @@ font-size: 20px;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin: 0px 24px 0 24px;
+  margin-top: -8vh;
   
 }
 
-.social_media_about {
+ .social_media_about {
   display: flex;
   flex-direction: column;
+  margin-top: -20vh;
   padding: 10px 4px;
   flex-wrap: wrap;
   margin-left: -4vw;
-}
+}  
 
 .social_media_about a {
   font-weight: 500;
@@ -213,8 +211,9 @@ font-size: 20px;
   flex-direction: row;
   align-items: center;
   list-style: none;
+  margin-top: -1vh;
   gap: 15px;
- 
+  flex-wrap: wrap;
 }
 
 .social_icons i {
@@ -521,6 +520,7 @@ g:nth-child(3n + 3){
 
   .header {
     padding: 14px 80px;
+    width: auto;
   }
 
   .humburger {
@@ -530,7 +530,7 @@ g:nth-child(3n + 3){
   h1 {
     font-weight: 700;
     font-size: 20px;
-    line-height: 52px;
+    line-height: 5vh;
     color: #172b4d;
     margin-left: 5vw;
     text-align:center;
@@ -547,22 +547,24 @@ g:nth-child(3n + 3){
     
     padding: 2px;
     border: none;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     
   }
 
   .section {
-    background-position: left top;
-    background-size: cover;
-    justify-content: center;
-    margin-top: 0px;
-   
-    width: 100%;
-    border-bottom-left-radius: 50px;
+    z-index: -1;
+    background-image: url('/docs/images/wance-paleri--U35nb07DCM-unsplash.jpg');
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+   width: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
+    height: 39em;
   }
+
+ 
 
   .section:hover {
    
@@ -583,6 +585,7 @@ g:nth-child(3n + 3){
     margin:auto;
     place-content: center;
     margin-top: 40px;
+    height: auto;
   }
 
   .rainbow-text {
@@ -674,8 +677,7 @@ g:nth-child(3n + 3){
   }
 
   .info {
-    margin-left: 100px;
-    margin-right: 100px;
+   margin-top: -6vh;
   }
 
  
@@ -755,7 +757,7 @@ g:nth-child(3n + 3){
   .social_media_about {
     display: flex;
     flex-direction: column;
-    padding: 10px 4px;
+   margin-top: -18vh;
     flex-wrap: wrap;
     margin-left: 2vw;
   }
@@ -777,10 +779,11 @@ g:nth-child(3n + 3){
   .contact-me {
     padding: 74px;
     display: flex;
+    
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    z-index: 1;
+    z-index: 6;
    
     
   }
