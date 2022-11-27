@@ -185,7 +185,7 @@ font-size: 20px;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-top: -8vh;
+  
   
 }
 
@@ -680,9 +680,9 @@ g:nth-child(3n + 3){
     
   }
 
-  .info {
+  /* .info {
    margin-top: -6vh;
-  }
+  } */
 
  
 
