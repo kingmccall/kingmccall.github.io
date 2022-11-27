@@ -165,7 +165,7 @@ font-size: 20px;
 }
 
 .section {
-  background-image: url("/docs/images/wancepaleri.jpg");
+  background-image: url("https://images.unsplash.com/photo-1642790106117-e829e14a795f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=50");
   background-size: 100% 700px;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -557,8 +557,8 @@ g:nth-child(3n + 3){
 
   .section {
     
-    background-image: url("/docs/images/wancepaleri.jpg");
-     background-size: 100% 700px;
+    background-image: url("https://images.unsplash.com/photo-1642790106117-e829e14a795f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=80");
+     background-size: contain;
     background-repeat: no-repeat;
     width: auto;
     overflow-x: hidden;
