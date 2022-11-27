@@ -565,7 +565,7 @@ g:nth-child(3n + 3){
     width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 45em;
+    height: 78em;
   }
 
  
@@ -741,7 +741,7 @@ g:nth-child(3n + 3){
     align-items: center;
     list-style: none;
     gap: 15px;
-   margin-top: 4vh;
+   margin-top: 7vh;
   }
   
   .social_icons i {
