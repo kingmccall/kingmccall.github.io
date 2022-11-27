@@ -166,7 +166,6 @@ font-size: 20px;
 
 .section {
   background-image: url('../docs/images/wancepaleri.jpg');
-      
   background-size: 100% 700px;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -561,7 +560,7 @@ g:nth-child(3n + 3){
     background-image: url('../docs/images/wancepaleri.jpg');
      background-size: 100% 700px;
     background-repeat: no-repeat;
-   width: auto;
+    width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
     height: 39em;
