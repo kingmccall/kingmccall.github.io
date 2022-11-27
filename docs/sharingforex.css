@@ -96,6 +96,7 @@ img {
 
 .humburger {
   cursor: pointer;
+  z-index: 3;
 }
 
 .bar {
@@ -104,22 +105,24 @@ img {
   margin: 3px 0;
   height: 3px;
   width: 24px;
+  z-index: 3;
 }
 
 .humburger.active .bar:nth-child(1) {
   transform: translateY(5px) rotate(45deg);
   background-color: orange;
-  z-index: 1;
+ z-index: 3;
 }
 
 .humburger.active .bar:nth-child(2) {
   opacity: 0;
+  
 }
 
 .humburger.active .bar:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
   background-color: lime;
-  z-index: 1;
+  z-index: 3;
 }
 
 .nav-menue2 {
@@ -143,7 +146,7 @@ font-size: 20px;
   left: -100%;
   top: 0;
   backdrop-filter: blur(85px);
-  z-index: 30;
+  z-index: 3;
   
 }
 
@@ -162,7 +165,7 @@ font-size: 20px;
 }
 
 .section {
-  background-image: url('docs/images/wance-paleri--U35nb07DCM-unsplash.jpg');
+  background-image: url('/docs/images/wance-paleri--U35nb07DCM-unsplash.jpg');
       
   background-size: 100% 700px;
   background-repeat: no-repeat;
@@ -202,7 +205,7 @@ font-size: 20px;
 }
 
 .nav-menue a:hover {
-  font-size: 40px;
+  font-size: 30px;
   
 }
 
