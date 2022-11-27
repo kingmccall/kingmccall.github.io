@@ -565,7 +565,7 @@ g:nth-child(3n + 3){
     width: auto;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 95em;
+    height: 60em;
   }
 
  
@@ -680,9 +680,9 @@ g:nth-child(3n + 3){
     
   }
 
-  /* .info {
-   margin-top: -6vh;
-  } */
+  .info {
+   margin-top: -16vh;
+  } 
 
  
 
