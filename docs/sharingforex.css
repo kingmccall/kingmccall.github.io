@@ -761,7 +761,7 @@ g:nth-child(3n + 3){
   .social_media_about {
     display: flex;
     flex-direction: column;
-   margin-top: -10vh;
+   margin-top: -16vh;
     flex-wrap: wrap;
     margin-left: 2vw;
   }
