@@ -566,6 +566,7 @@ g:nth-child(3n + 3){
     overflow-x: hidden;
     overflow-y: hidden;
     height: 60em;
+    border-bottom-left-radius: 100px;
   }
 
  
