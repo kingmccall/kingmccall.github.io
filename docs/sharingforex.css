@@ -242,7 +242,7 @@ font-size: 20px;
  
   color: lime;
  
-  height: 20px;
+  height: 24px;
   cursor: pointer;
 }
 
@@ -775,7 +775,7 @@ g:nth-child(3n + 3){
    
     color: lime;
    
-    height: 20px;
+    height: 24px;
     cursor: pointer;
   }
 
