@@ -549,6 +549,10 @@ g:nth-child(3n + 3){
     gap: 9vw;
   }
 
+  .nav-menue2 a {
+    padding-left: 2vw;
+  }
+
   .nav-menue2 a:hover {
     
     padding: 2px;
