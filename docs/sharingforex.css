@@ -561,11 +561,11 @@ g:nth-child(3n + 3){
     display: flex;
     flex-direction: row;
     color: #396df2;
-    gap: 6vw;
+    gap: 3vw;
   }
 
   .nav-menue2 a {
-    padding-left: 2vw;
+    padding-left: 1vw;
   }
 
   .nav-menue2 a:hover {
