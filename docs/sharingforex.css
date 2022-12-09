@@ -417,6 +417,7 @@ form input {
   font-size: 17px;
   line-height: 20px;
   padding: 15px 38px 15px 16px;
+  caret-color: #0f0;
 }
 
 form textarea {
@@ -428,6 +429,7 @@ form textarea {
   line-height: 24px;
   color: #b3bac5;
   padding: 15px 38px 15px 16px;
+  caret-color: #0f0;
 }
 
 form button {
@@ -823,11 +825,13 @@ g:nth-child(3n + 3){
   form input {
     border-radius: 2px;
     width: 100%;
+    caret-color: #0f0;
   }
 
   form textarea {
     border-radius: 2px;
     width: 100%;
+    caret-color: #0f0;
   }
 
   .contact-hr {
