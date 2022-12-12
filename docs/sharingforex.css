@@ -471,7 +471,7 @@ form button:hover {
   background-clip: text;
   font-size: 30px;
   color: transparent;
-  animation: rainbow-slide 8s linear infinite;
+  animation: rainbow-slide 4s linear infinite;
   background-size: 300% 100%;
   background-image: linear-gradient(
       90deg,
@@ -620,7 +620,7 @@ g:nth-child(3n + 3){
     background-clip: text;
     font-size: 30px;
     color: transparent;
-    animation: rainbow-slide 8s linear infinite;
+    animation: rainbow-slide 4s linear infinite;
     background-size: 300% 100%;
     background-image: linear-gradient(
         90deg,
